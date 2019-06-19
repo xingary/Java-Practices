@@ -5,6 +5,11 @@ import java.util.Map;
 
 public class TwoSum
 {
+    // Given an sorted array of integers, return indices of the two numbers such
+    // that they add up to a specific target.
+
+    // Each input would have exactly one solution, and may not use the same element
+    // twice.
     public int[] twoSum(int[] nums, int target)
     {
 	int[] indices = new int[2];
