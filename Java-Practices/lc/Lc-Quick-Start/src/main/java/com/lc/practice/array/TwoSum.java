@@ -1,13 +1,14 @@
 package com.lc.practice.array;
 
 import java.util.HashMap;
+import java.util.Map;
 
 public class TwoSum
 {
     public int[] twoSum(int[] nums, int target)
     {
 	int[] indices = new int[2];
-	HashMap<Integer, Integer> saved = new HashMap<>();
+	Map<Integer, Integer> saved = new HashMap<>();
 	int k;
 
 	for (int i = 0; i < nums.length; i++)
