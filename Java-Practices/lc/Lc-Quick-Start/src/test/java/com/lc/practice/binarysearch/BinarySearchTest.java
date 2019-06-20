@@ -1,4 +1,4 @@
-package com.lc.practice.array.binarysearch;
+package com.lc.practice.binarysearch;
 
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.CoreMatchers.is;
@@ -122,7 +122,7 @@ public class BinarySearchTest
 	int expected = 4;
 	// WHEN
 	int result = BinarySearch.searchInRotatedSortedArray(testArray, target);
-	
+
 	// THEN
 	assertEquals(expected, result);
     }
@@ -141,7 +141,7 @@ public class BinarySearchTest
 	int expected = -1;
 	// WHEN
 	int result = BinarySearch.searchInRotatedSortedArray(testArray, target);
-	
+
 	// THEN
 	assertEquals(expected, result);
     }
